@@ -22,3 +22,6 @@ plt.plot(X_bmi, predictions)
 plt.ylabel("Blood Glucose (mg/dl)")
 plt.xlabel("Body Mass Index")
 plt.show()
+
+diabetes_df[(diabetes_df["glucose"] > 0)
+            & (diabetes_df[diabetes_df["glucose"]] > 0)  ]
